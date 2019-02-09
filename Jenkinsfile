@@ -6,5 +6,10 @@ pipeline {
         echo 'Checkout'
       }
     }
+    stage('test') {
+      steps {
+        echo 'Hi test team'
+      }
+    }
   }
 }
